@@ -42,7 +42,7 @@ def test_model(model, X_test, y_test):
 
 def main():
     # Load the data
-    data = load_data('data/credit_card_records.csv')
+    data = load_data('data1/credit_card_records.csv')
 
     # Preprocess the data
     data = preprocess_data(data)
